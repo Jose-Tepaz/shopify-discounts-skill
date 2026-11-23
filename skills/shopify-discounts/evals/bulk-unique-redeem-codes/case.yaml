@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: bulk-unique-redeem-codes
+expected_outcome: |
+  Un solo descuento de código con 15% (0.15) y usageLimit 1 por código, más discountRedeemCodeBulkAdd en lotes de máximo 250 (5 lotes para 1200), sondeo de discountRedeemCodeBulkCreation revisando failedCount, un archivo con 1200 códigos únicos con prefijo INF-, fechas de diciembre en UTC correctas.

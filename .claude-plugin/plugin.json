@@ -1,0 +1,13 @@
+{
+  "name": "shopify-discounts",
+  "version": "1.0.0",
+  "description": "Crea, edita, segmenta, programa, audita y limpia descuentos de Shopify con la Admin GraphQL API, con confirmación antes de cada cambio.",
+  "author": {
+    "name": "Jose-Tepaz",
+    "url": "https://github.com/Jose-Tepaz"
+  },
+  "homepage": "https://github.com/Jose-Tepaz/shopify-discounts-skill",
+  "repository": "https://github.com/Jose-Tepaz/shopify-discounts-skill",
+  "license": "MIT",
+  "keywords": ["shopify", "discounts", "descuentos", "graphql", "ecommerce", "skill"]
+}

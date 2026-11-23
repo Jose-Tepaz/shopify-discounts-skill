@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: cleanup-old-discounts
+expected_outcome: |
+  Plan que primero audita con consultas que cubren todos los tipos de descuento (código y automático), muestra conteos/lista antes de cambiar, prefiere desactivar sobre eliminar y pide confirmación explícita antes de borrar, usa ids explícitos en las mutaciones masivas, reconoce que no hay desactivación masiva de automáticos, y no ejecuta nada.
